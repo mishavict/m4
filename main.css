@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background: url("images/bg.png") repeat;
+	}
+
+#container{
+	width: 555px;
+	margin: 0 auto;
+}
+
+#container article{
+	background-color:rgba(255,255,255,0.80);
+	border-radius: 20px;
+	margin: 10px 10px 10px 10px;
+	padding: 10px;
+	border:dashed 1px rgba(100,142,182,1.00)
+	
+}
+	
+.left{
+		width: 480px;
+		height: 490px;
+		float: none;
+	}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link {
+	color:rgba(100,142,182,1.00)
+}
+a:hover {
+	color: rgba(36,43,101,1.00)
+}
+a:visited {
+	color: rgba(100,182,168,1.00)
+}
+a:active {
+  color:rgba(100,182,121,1.00)
+}
+
+.alex-brush-regular {
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-size: 25px;
+}
